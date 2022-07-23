@@ -1,0 +1,321 @@
+
+
+body {
+
+    background-image: url('img/background1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+span, .btn-LR{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+span{
+    display: block;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+.sign-up-container{
+
+    height: 500px;
+    width: 450px;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 247, 0.4); 
+    margin: 6% 55%;   
+}
+
+
+.options{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.btn-LR{
+    font-weight: bold;
+    position:absolute;
+    width: 215px;
+    margin: 0 auto;
+    height: 35px;
+    border-radius: 50px;
+    background-color: rgba(151, 228, 241, 0.252);  
+    border: 1px solid white;
+}
+
+
+#login{
+    background-color: rgba(0, 178, 195, 0.5);
+    right: 450px;
+    color: white;
+}
+
+#register{
+    right: 280px;
+}
+
+#img{
+    position: absolute;
+    margin-top: 50px;
+    left: 50px;
+}
+
+.register-container{
+    padding: 50px 50px;
+}
+
+.login-container{
+    padding: 100px 50px;
+}
+
+input{
+    background-color: rgba(255, 255, 247, 0.4);
+    border-radius: 10px;
+    border-color: aliceblue ;
+    border: 0.5px;
+    width: 345px;
+    padding-top: 6px;
+    margin-top: 10px;
+}
+
+#btn-submit{
+    width: 150px;
+    background-color: rgba(255, 255, 247, 0.4);
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 9px;
+    margin-left: 28%;
+    margin-top: 30px;
+}
+
+
+/*Media query max-width 320px*/
+@media screen and (max-width: 320px){
+    img{
+        visibility: hidden;
+    }
+
+    .sign-up-container{
+        
+        margin-top: 100px;
+        margin-left: 15px;
+        width: 250px;
+        height: 430px;
+    }
+    #register{
+        right: 65px;    
+    }
+
+    #login{
+        left: 45px;
+    }
+
+    .btn-LR{
+        width: 120px;
+    }
+
+    input{
+        width: 195px;
+    }
+
+    #btn-submit{
+        margin-left: 25px;
+    }
+
+    .options{
+        padding: 30px;
+    }
+
+    .register-container{
+        padding: 30px;
+    }
+
+    .login-container{
+        padding: 30px;
+    }
+}
+
+/* Media query max-width 376px*/
+
+@media screen and (max-width: 376px){
+    img{
+        visibility: hidden;
+    }
+
+    .sign-up-container{
+        
+        margin-top: 150px;
+        margin-left: 10px;
+        width: 400px;
+        height: 450px;
+    }
+
+    #register{
+        left: 200px;
+    }
+
+    #login{
+        left: 45px;
+    }
+
+    .btn-LR{
+        width: 200px;
+    }
+
+    input{
+        width: 300px;
+    }
+}
+
+/* Media query max-width 426px*/
+
+@media screen  and (max-width: 500px) {
+    img{
+        visibility: hidden;
+    }
+
+    .sign-up-container{
+        
+        margin-top: 150px;
+        margin-left: 10px;
+        width: 400px;
+        height: 450px;
+    }
+
+    #register{
+        left: 200px;
+    }
+
+    #login{
+        left: 45px;
+    }
+
+    .btn-LR{
+        width: 200px;
+    }
+    input{
+        width: 320px;
+    }
+}
+
+/* Media Query 426 - 499
+img{
+    visibility: hidden;
+}
+
+.sign-up-container{
+        
+    margin-top: 150px;
+    margin-left: 5px;
+    width: 450px;
+    height: 450px;
+}
+
+#register{
+    left: 200px;
+}
+
+#login{
+    left: 45px;
+} */
+
+/*  Media query min-width 769px*/
+
+@media only screen and (min-width: 500px) and (max-width: 801px){
+    img{
+        visibility: hidden;
+    }
+
+    .sign-up-container{
+        
+        margin-top: 150px;
+        margin-left: 15%;
+        width: 550px;
+        height: 450px;
+    }
+
+    #register{
+        left: 330px;
+    }
+
+    #login{
+        left: 150px;
+    }
+
+    .btn-LR{
+        width: 280px;
+    }
+    input{
+        width: 320px;
+    }
+
+    .register-container{
+        padding: 100px;
+        padding-top: 55px;
+    }
+
+    .login-container{
+        padding: 100px;
+        
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1023px){
+    img{
+        visibility: hidden;
+    }
+
+    .sign-up-container{
+        
+        margin-top: 150px;
+        margin-left: 15%;
+        width: 550px;
+        height: 450px;
+    }
+
+    .btn-LR{
+        width: 260px;
+    }
+    #register{
+        left: 380px;
+    }
+
+    #login{
+        left: 180px;
+    }
+}
+
+
+/* min-width: 1024px a mas-width:1500px*/
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+    img{
+        visibility: hidden;
+    }
+
+    .sign-up-container{
+        
+        margin-top: 150px;
+        margin-left: 25%;
+        width: 650px;
+        height: 450px;
+    }
+
+    .btn-LR{
+        position: fixed;
+        width: 280px;
+    }
+    #register{
+        left: 380px;
+    }
+
+    #login{
+        left: 180px;
+    }
+    input{
+        width: 500px;
+    }
+}
